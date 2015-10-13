@@ -2,7 +2,7 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-#include "../libs/RF24_rpi/RF24.h"
+#include "../libraries/RF24_rpi/RF24.h"
 #include <mysql/mysql.h> // I added include /usr/include/mysql/ to ld.so.conf which is why that works
 
 #include <stdio.h>

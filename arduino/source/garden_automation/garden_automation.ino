@@ -32,7 +32,7 @@ void setup(void)
     setupRfRadio();
     setupInterrupts();
     
-  
+    
 }
 
 void loop(void)
@@ -48,7 +48,7 @@ void transmitting(void){
 
         //unsigned long time = micros();                             // Take the time, and send it.  This will block until complete
         if (!radio.write( &i, sizeof(int) ))
-        {   
+        {
             printf("failed.\n\r");
         }
         
@@ -70,7 +70,7 @@ void transmitting(void){
         
         if ( timeout ){                                             // Describe the results
             printf("Failed, response timed out.\n\r");
-            }
+        }
         else{
             int got_i;                                 // Grab the response, compare, and send to debugging spew
             radio.read( &got_i, sizeof(int) );

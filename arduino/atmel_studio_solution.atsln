@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Atmel Studio Solution File, Format Version 11.00
-Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "garden_automation", "garden_automation\garden_automation.cppproj", "{E29651A2-4517-41A8-90B9-08021E75AEA2}"
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "garden_automation", "source\garden_automation\garden_automation.cppproj", "{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|AVR = Release|AVR
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E29651A2-4517-41A8-90B9-08021E75AEA2}.Debug|AVR.ActiveCfg = Debug|AVR
-		{E29651A2-4517-41A8-90B9-08021E75AEA2}.Debug|AVR.Build.0 = Debug|AVR
-		{E29651A2-4517-41A8-90B9-08021E75AEA2}.Release|AVR.ActiveCfg = Release|AVR
-		{E29651A2-4517-41A8-90B9-08021E75AEA2}.Release|AVR.Build.0 = Release|AVR
+		{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}.Debug|AVR.Build.0 = Debug|AVR
+		{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}.Release|AVR.ActiveCfg = Release|AVR
+		{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
