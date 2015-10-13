@@ -93,10 +93,10 @@
     gpio -v  
     gpio readall  
     ```
-7. Make and install RF24 (in libs or pull from github)
+7. Make and install RF24 (in libraries or pull from github)
 
     ```  
-    cd rpi/libs/RF24_rpi  
+    cd rpi/libraries/RF24_rpi  
     sudo make  
     sudo make install  
     ```  
