@@ -102,7 +102,9 @@
     ```  
 7a. Check installation. Look for librf24.so.1 -> librf24.so.1.0  
 `sudo ldconfig -v | grep librf`  
-        
+8. Install oauth for Ruby Twitter API  
+`sudo gem install evernote_oauth`  
+
 Note if pulling from github: 
 Raspberry Pi 2 edit. Reverse for Raspberry Pi 1  
 
