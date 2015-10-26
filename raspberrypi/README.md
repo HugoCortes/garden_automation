@@ -104,8 +104,15 @@
 `sudo ldconfig -v | grep librf`  
 8. Install oauth for Ruby Twitter API  
 `sudo gem install evernote_oauth`  
+9. Install MySQL for Python  
+    ```  
+    sudo apt-get install python-mysqldb
+    sudo apt-get install libmysqlclient-dev
+    ```  
+10. Install MatPlotLib  
+`sudo apt-get install libblas-dev liblapack-dev python-dev libatlas-base-dev gfortran python-setuptools python-scipy python-matplotlib`  
 
-Note if pulling from github: 
+Note if pulling RF24 library from github: 
 Raspberry Pi 2 edit. Reverse for Raspberry Pi 1  
 
     sudo nano {RF24 Directory}/bcm2835.h  

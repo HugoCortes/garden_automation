@@ -29,15 +29,15 @@
     <preserveEEPROM>true</preserveEEPROM>
     <AsfFrameworkConfig>
       <framework-data xmlns="">
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.27.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.27.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -74,7 +74,7 @@
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino</Value>
-      <Value>../../garden_automation</Value>
+      <Value>../../source</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
@@ -110,7 +110,7 @@
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino</Value>
-      <Value>../../garden_automation</Value>
+      <Value>../../source</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
@@ -123,7 +123,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega;../../garden_automation;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/arduino-1.6.0/libraries;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/HUGO1/Desktop/code/Arduino/libraries;{runtime.tools.avr-gcc.path}/avr/include/;{runtime.tools.avr-gcc.path}//avr/include/avr/;{runtime.tools.avr-gcc.path}/lib/gcc/avr/4.8.1/include;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega;../../garden_automation;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/arduino-1.6.0/libraries;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/HUGO1/Desktop/code/Arduino/libraries;{runtime.tools.avr-gcc.path}/avr/include/;{runtime.tools.avr-gcc.path}//avr/include/avr/;{runtime.tools.avr-gcc.path}/lib/gcc/avr/4.8.1/include;../../source;</VMSETTING_IncludePaths>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <ToolchainSettings>
@@ -159,7 +159,7 @@
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino</Value>
-      <Value>../../garden_automation</Value>
+      <Value>../../source</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
@@ -195,7 +195,7 @@
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility</Value>
       <Value>C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino</Value>
-      <Value>../../garden_automation</Value>
+      <Value>../../source</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega</Value>
       <Value>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino</Value>
     </ListValues>
@@ -208,13 +208,16 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega;../../garden_automation;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/arduino-1.6.0/libraries;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/HUGO1/Desktop/code/Arduino/libraries;{runtime.tools.avr-gcc.path}/avr/include/;{runtime.tools.avr-gcc.path}//avr/include/avr/;{runtime.tools.avr-gcc.path}/lib/gcc/avr/4.8.1/include;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/variants/mega;../../garden_automation;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino;C:/Users/HUGO1/Desktop/code/Arduino/libraries/RF24_arduino/utility;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries/SPI/utility;C:/Program Files (x86)/arduino-1.6.0/libraries;C:/Program Files (x86)/arduino-1.6.0/hardware/arduino/avr/libraries;C:/Program Files (x86)/Visual Micro/Visual Micro for Arduino/Micro Platforms/default/debuggers;C:/Users/HUGO1/Desktop/code/Arduino/libraries;{runtime.tools.avr-gcc.path}/avr/include/;{runtime.tools.avr-gcc.path}//avr/include/avr/;{runtime.tools.avr-gcc.path}/lib/gcc/avr/4.8.1/include;../../source;</VMSETTING_IncludePaths>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="garden_automation.ino">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Visual Micro\.garden_automation.vsarduino.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Visual Micro\.source.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
