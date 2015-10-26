@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Atmel Studio Solution File, Format Version 11.00
-Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "garden_automation", "source\garden_automation\garden_automation.cppproj", "{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}"
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "garden_automation", "source\garden_automation.cppproj", "{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "moisture_sensor", "samples\moisture_sensor\moisture_sensor.cppproj", "{C320C7F5-511C-4E62-9E55-9EA668E2824D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}.Debug|AVR.Build.0 = Debug|AVR
 		{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}.Release|AVR.ActiveCfg = Release|AVR
 		{F3ED81C7-4FB3-4E1E-92D6-B1F7793C625C}.Release|AVR.Build.0 = Release|AVR
+		{C320C7F5-511C-4E62-9E55-9EA668E2824D}.Debug|AVR.ActiveCfg = Debug|AVR
+		{C320C7F5-511C-4E62-9E55-9EA668E2824D}.Debug|AVR.Build.0 = Debug|AVR
+		{C320C7F5-511C-4E62-9E55-9EA668E2824D}.Release|AVR.ActiveCfg = Release|AVR
+		{C320C7F5-511C-4E62-9E55-9EA668E2824D}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
